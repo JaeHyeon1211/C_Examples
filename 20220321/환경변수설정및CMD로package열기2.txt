@@ -1,0 +1,10 @@
+2022-03-22
+CMD에서 echo %CLASSPATH%시 JAVA_HOME의 변수값이 안나올시
+
+KCC100에 대한 사용자 변수
+새로만들기 > 변수이름: JAVA_HOME 변수값: Java JDK 주소이름
+
+
+C:\JavaStudy\src>javac -encoding UTF-8 -d ../class SumExam.java
+->따로 com, test, exam01 폴더를 만들지 않아도
+-d 명령어로 java파일안에 package에 적어놓은 대로 파일이 만들어지면서 Class파일 생성됨
